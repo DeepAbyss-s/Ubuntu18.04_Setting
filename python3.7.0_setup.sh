@@ -1,5 +1,4 @@
-dver=$(. /etc/os-release;echo $ID$VERSION_ID)
-arch=$(dpkg -s libc6 | grep Architecture)
+dver=$(. /etc/os-release;echo $ID$VERSION_ID) #Ubuntu's version check
 
 echo " check ubuntu version !"
 
@@ -21,6 +20,7 @@ case $yn in
     exit;;
 esac
 
+# ubuntu's basic program list.
 sudo apt-get install -y build-essential
 sudo apt-get install -y checkinstall
 sudo apt-get install -y libreadline-gplv2-dev
@@ -37,14 +37,14 @@ sudo apt-get install -y libffi-dev
 sudo apt-get install -y python3-dev
 sudo apt-get install -y python3-setuptools
 sudo apt-get install -y wget
-wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
+wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz  # download python3.7.0
 tar xvf Python-3.7.0.tar.xz
 cd Python-3.7.0
 ./configure
 sudo make altinstall
-python3.7 --version
+python3.7 --version  # python version check
 
-echo "Finish for python3" &&  //  python3 install basic step is finish
+echo "Finish for python3" &&  #  python3 install basic step is finish
 
 sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.7 3 &&
 sudo update-alternatives --config python
@@ -55,6 +55,6 @@ read -p "System will reboot. restart now? [y/n] " yn
 case $yn in
   [Yy]* ) echo " System restart start"
     sudo reboot;;
-  [Nn]* ) echo " after you should reboot system."
+  [Nn]* ) echo " Proceed your work."
     exit;;
 esac
