@@ -1,4 +1,3 @@
-# Ubuntu 18.04_Setting
 # Ubuntu 18.04 Python 3.7.0
 # 우분투 버전
 - Ubuntu 18.04.4 LTS AMD64버전
