@@ -13,7 +13,7 @@
 만약 실행이 되지 않는다면 (chmod +x 파일명)명령어를 이용하여 실행권한을 주어 진행을 하시면됩니다.
 그리고 실행이 정상적으로 끝났다면 재부팅을 권장합니다.
 
-# Ubuntu 18.04 Setting
+# Ubuntu 18.04 Python 3.7.0 Setting
  This is the beginning of the foundation for the development of A.I with Ubuntu 18.04.04 LTS Version.
  It is easy and simple.
  
