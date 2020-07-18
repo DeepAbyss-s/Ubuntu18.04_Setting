@@ -1,6 +1,7 @@
 # Ubuntu 18.04 Python 3.7.0
 # 우분투 버전
 - Ubuntu 18.04.4 LTS AMD64버전
+
 우분투를 설치 후에 꼭 검색창에 "Update"를 검색하여 Software Updater로 최신 업데이트를 권장합니다.
 
 우분투 다운로드 링크 : http://releases.ubuntu.com/18.04.4/?_ga=2.230811615.1549882822.1595100830-783172836.1595100830
