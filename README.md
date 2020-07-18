@@ -4,5 +4,6 @@
  
 - When you install Ubuntu 18.04, then update your ubuntu version lastest version in 18.04!
 - We recommend this program for setting about Ubuntu 18.04's Basic Learning Setting with python3.7.0 version.
+- when it is not work, use superuser mode and use this code "chmod +x (program;s name)", then it will perfectly work. 
   
 - We Make Happy Life with A.I -
