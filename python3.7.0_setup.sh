@@ -74,7 +74,7 @@ sudo apt-get update -y
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 echo "  "
-echo "Nvidia Docker install"
+echo "Nvidia Docker install"  # nvidia docker install.
 
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
@@ -87,7 +87,7 @@ echo "  "
 
 read -p "System will reboot. restart now? [y/n] " yn
 case $yn in
-  [Yy]* ) echo " System restart start"
+  [Yy]* ) echo " System will restart ! "
     sudo reboot;;
   [Nn]* ) echo " Proceed your work."
     exit;;
