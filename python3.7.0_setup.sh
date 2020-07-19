@@ -53,6 +53,8 @@ sudo update-alternatives --config python
 echo "!-! attention !-! check python's version !!" &&
 python --version  #  check python version ( python 3.7.0 is correct install Version)
 
+echo " "
+echo "pip install"
 sudo apt-get install python3-pip -y  # python3's pip install
 
 echo "  "
