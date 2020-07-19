@@ -51,7 +51,9 @@ sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3
 sudo update-alternatives --config python
 
 echo "!-! attention !-! check python's version !!" &&
-python --version  //  check python version ( python 3.7.0 is correct install Version) &&
+python --version  #  check python version ( python 3.7.0 is correct install Version)
+
+sudo apt-get install python3-pip -y  # python3's pip install
 
 echo "  "
 echo "Docker install start"  # Docker install
