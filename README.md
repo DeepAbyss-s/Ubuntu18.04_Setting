@@ -56,6 +56,12 @@
 
 그리고 실행과 설치가 정상적으로 끝났다면 재부팅을 권장합니다.
 
+도커가 재대로 설치되었는지 확인하는 방법은
+ 
+ - docker version
+
+을 입력해주면 버전을 보여줍니다
+
 # Ubuntu 18.04 Python 3.7.0 Setting
  This is the beginning of the foundation for the development of A.I with Ubuntu 18.04.04 LTS Version.
  It is easy and simple.
