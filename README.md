@@ -59,6 +59,10 @@
 도커가 재대로 설치되었는지 확인하는 방법은
  
  - docker version
+ 
+ 도커상 CUDA가 지원되는 그래픽카드 드라이버 버전을 확인하려면 아래 코드를 입력해주시면 됩니다.
+ 
+ - sudo docker run --gpus all -it --rm tensorflow/tensorflow:1.13.2-gpu-py3  python -c "import tensorflow as tf; tf.Session();"
 
 을 입력해주면 버전을 보여줍니다
 
